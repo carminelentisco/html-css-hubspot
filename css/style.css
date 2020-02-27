@@ -14,6 +14,11 @@ body {
 
 /*-----------------UTILITIES-------------*/
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .pos_rel {
   position: relative;
 }
@@ -53,6 +58,13 @@ body {
   color: white;
 }
 
+.p_top100 {
+  padding-top: 100px;
+}
+
+.w_100 {
+  width: 100%;
+}
 /*-------------TEXT STYLE ---------------*/
 
 .t__right {
@@ -95,11 +107,6 @@ body {
 
 #header__1 span i {
   padding: 0 5px;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .header__info__width {
@@ -192,6 +199,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
+
 .contenuto-jumbotron h1 {
   font-size: 40px;
   max-width: 70%;
@@ -206,4 +214,36 @@ body {
 .contenuto-jumbotron a {
   display: inline-block;
   margin: 20px 0;
+}
+
+/*------------------CORPO---------------*/
+
+.background-corpo {
+  background-color: #f4f9fd;
+  height: 3000px;
+  width: 100%;
+}
+
+/*------------------CUBO----------------*/
+
+.img-cubo {
+  width: 100%;
+  height: 400px;
+}
+
+.img-cubo-pos {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*----TITOLO PICCOLO + PARAGRAFO (CUBO)---*/
+
+.t-cubo  {
+  text-align: center;
+}
+
+.t-cubo span {
+  display: inline-block;
+  max-width: 80%;
 }
