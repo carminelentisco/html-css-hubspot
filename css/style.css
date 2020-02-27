@@ -9,7 +9,7 @@
 body {
   font-family: 'Montserrat';
   font-size: 16px;
-  color: gray;
+  color: #33475b;
 }
 
 /*-----------------UTILITIES-------------*/
@@ -130,4 +130,28 @@ body {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
+}
+
+/*------------HEADER MENU'-------------*/
+
+.menù-width {
+  width: 80%;
+}
+
+.menù-header  ul li {
+  display: inline;
+  padding: 0;
+  list-style: none;
+  line-height: 5;
+}
+
+.menù-header  ul li a {
+  color: #33475b;
+  text-decoration: none;
+  padding: 0 10px;
+  font-weight: 500;
+}
+
+.menù-header  ul li a i {
+  padding: 0 15px;
 }
