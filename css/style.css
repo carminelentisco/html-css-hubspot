@@ -247,3 +247,53 @@ body {
   display: inline-block;
   max-width: 80%;
 }
+
+/*-------------------BOX 1----------------*/
+
+#box-1 {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+/*------------------COL 1------------------*/
+
+.box-1-col-1 {
+  height: 100%;
+  width: 40%;
+}
+
+.dimensione-div-box {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.dimensione-div-box span {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.dimensione-div-box img {
+  height: 150px;
+}
+
+.dimensione-div-box a {
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+/*-------------------COL 2-----------------*/
+
+.box-1-col-2 {
+  height: 100%;
+  width: 60%;
+}
