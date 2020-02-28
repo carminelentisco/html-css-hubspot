@@ -83,6 +83,7 @@ body {
 .t_centre {
     text-align: center;
 }
+
 .f_size20 {
   font-size: 20px;
 }
@@ -219,12 +220,12 @@ body {
   margin: 20px 0;
 }
 
-/*------------------CORPO---------------*/
+/*-----------CORPO SEZIONE 1---------------*/
 
 .background-corpo {
   background-color: #f4f9fd;
-  height: 3000px;
   width: 100%;
+  padding: 50px 0;
 }
 
 /*------------------CUBO----------------*/
@@ -387,4 +388,46 @@ body {
 .box-2-content a {
   display: inline-block;
   margin: 0 70px;
+}
+
+/*-----------------SECTION 2------------------*/
+
+#section-2 {
+  background: linear-gradient(to top right, #00a4bc 0%, #00bca6 100%);
+  width: 100%;
+}
+
+/*---------------SECTION 2 INTESTAZIONE-------*/
+
+.sec-2-intestazione {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.sec-2-intestazione h2 {
+  font-size: 29px;
+  padding-bottom: 20px;
+}
+
+.sec-2-intestazione h2,
+.sec-2-intestazione p {
+  color: #fff;
+}
+
+/*--------------SECTION 2 GRID---------------*/
+
+.sec-2-grid {
+  width: 100%;
+}
+
+/*---------------GRID 1----------------------*/
+
+.grid-1 {
+  width: calc(100% / 4);
+}
+
+.grid-1-img {
+  height: 50px;
+  width: 100%;
+  text-align: center;
 }
