@@ -566,9 +566,10 @@ body {
 
 .footer-btn {
   display: inline-block;
-  text-align: right;
   width: 100%;
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 75%;
 }
 
 
