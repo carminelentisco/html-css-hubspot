@@ -576,3 +576,22 @@ body {
 .footer-button {
   background-color: #fff;
 }
+
+/*---------------------SOCIAL-------------------*/
+.social {
+  padding-left: 75%;
+}
+.social li {
+  color: #f4f9fd;
+}
+
+.social  ul li {
+  display: inline;
+  padding: 0;
+  list-style: none;
+  line-height: 2;
+}
+
+.social ul li i {
+  padding: 0 10px;
+}
