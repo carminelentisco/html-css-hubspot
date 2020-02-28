@@ -595,3 +595,13 @@ body {
 .social ul li i {
   padding: 0 10px;
 }
+
+.lenguage {
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+}
+
+.lenguage span {
+  padding: 0 20px;
+}
