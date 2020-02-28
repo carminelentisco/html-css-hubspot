@@ -80,6 +80,9 @@ body {
   text-decoration: none;
 }
 
+.t_centre {
+    text-align: center;
+}
 .f_size20 {
   font-size: 20px;
 }
@@ -279,6 +282,8 @@ body {
 
 .button-col-1 a {
   padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 /*-------------------COL 2-----------------*/
@@ -302,4 +307,84 @@ body {
 .col-2 i {
   color: #fe775a;
   margin-right: 10px;
+}
+
+.p {
+  position: relative;
+}
+
+.p::after {
+  content: '';
+  position: absolute;
+  width: 70%;;
+  height: 1px;
+  background: #33475b;
+  left: 50%;
+  top: 50%;
+  transform: translate(-30%, -50%);
+}
+
+/*-------------------BOX 2-------------------*/
+
+#box-2 {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.box-2-content {
+  width: 100%;
+  background-color: white;
+  box-shadow: 2px 2px 5px;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.box-2 {
+  width: calc(100% / 3);
+}
+
+.box-2-1 {
+  padding-right: 20px;
+}
+
+.box-2-2 {
+  padding: 0 20px;
+}
+
+.box-2-3 {
+  padding-left: 20px;
+}
+
+.vertical-check {
+ margin: 40px 0;;
+}
+
+.box-2-content img {
+  height: 150px;
+  width: 100%;
+}
+
+.box-2-content h4 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.box-2-content h4,
+.box-2-content p {
+  margin: 40px 0;
+}
+
+.box-2-content ul {
+  list-style: none;
+  margin: 0;
+}
+
+.box-2-content i {
+  margin-right: 15px;
+  color: #fe775a;
+}
+
+.box-2-content a {
+  display: inline-block;
+  margin: 0 70px;
 }
