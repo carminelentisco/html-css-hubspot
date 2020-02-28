@@ -422,12 +422,40 @@ body {
 
 /*---------------GRID 1----------------------*/
 
-.grid-1 {
+.grid {
   width: calc(100% / 4);
+  padding: 25px;
+}
+
+.grid-1-bb {
+  border-bottom: 1px solid #fff;
+}
+
+.grid-1-br {
+  border-right: 1px solid #fff;
 }
 
 .grid-1-img {
   height: 50px;
   width: 100%;
   text-align: center;
+}
+
+.grid-1-testo {
+  color: #fff;
+  text-align: center;
+}
+
+.grid-1-testo h2 {
+  font-size: 50px;
+}
+
+.grid-1-testo p {
+  font-size: 15px;
+}
+
+.grid-1-testo h2::after {
+  content: '+';
+  font-size: 25px;
+  vertical-align: middle;
 }
