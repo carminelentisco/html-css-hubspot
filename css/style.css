@@ -533,3 +533,45 @@ body {
 .sec-3-box-2-img img {
   height: 400px
 }
+
+/*--------------------FOOTER------------------*/
+
+#footer {
+  background-color: #32495b;
+  width: 100%;
+  color: #fff;
+}
+
+/*-----------------SECTION FOOTER--------------*/
+
+.footer-box {
+  margin-top: 40px;
+  width: calc(100% / 4);
+}
+
+.footer-box h6 {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.footer-box ul {
+  font-size: 15px;
+  list-style: none;
+}
+
+.footer-box li {
+  padding: 15px 0;
+}
+
+.footer-btn {
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+.footer-button {
+  background-color: #fff;
+}
